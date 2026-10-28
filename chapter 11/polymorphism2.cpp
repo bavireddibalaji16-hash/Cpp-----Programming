@@ -22,5 +22,5 @@ int main() {
     Dog d;
 
     a.sound();
-    d.Animal::sound();
+    d.Dog::sound();
 }

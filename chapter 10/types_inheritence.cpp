@@ -1,5 +1,5 @@
 
-// we did single inheritence before so we just do multi hybrid inheritence now
+// we did  single inheritence before so we just do multi hybrid inheritence now
 
 #include <iostream>
 #include <string>

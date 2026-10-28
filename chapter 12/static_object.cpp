@@ -23,6 +23,7 @@ public:
 int main() {
     test();
     cout << "Back in main\n";
+    return 0;
 } 
 
 

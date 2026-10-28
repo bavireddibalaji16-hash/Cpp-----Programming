@@ -24,9 +24,11 @@ public:
 int main() {
     UPI u;
     Card c;
+    Payment p;
 
     u.pay();
     c.pay();
+    p.pay(); // it will show u error
 
     return 0;
 }

@@ -6,7 +6,7 @@ class student{
     public:
     string name;
     int age;
-    int*marks;
+    int*marks;    // A pointer that stores the memory address of a double value
     double*fee;
 
     student(string name,int age,int marks,double fee){
@@ -33,7 +33,7 @@ class student{
     }
 
     ~student(){
-        delete marks;
+        delete marks;   // dynamically allocated memory need to be released before destroying object otherwise it creates memory leak 
         delete fee;
 
         cout << "Destructor called\n";
