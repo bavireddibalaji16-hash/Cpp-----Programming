@@ -11,3 +11,6 @@ int main(){
    cout <<"\n"<<e ;
     return 0;
 }
+
+/* representation of char -> 'A'
+   representation of string -> "A"  */
