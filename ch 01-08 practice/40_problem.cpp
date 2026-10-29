@@ -3,6 +3,8 @@
 #include <iomanip>
 using namespace std;
 
+// time diff between two intervals 
+
 struct Time {
     int hours, minutes, seconds;
 };
