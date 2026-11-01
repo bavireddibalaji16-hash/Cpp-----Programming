@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-    priority_queue<int>pq;
+    priority_queue<int>pq; // it will arrange in descending order 
 
     pq.push(5);
     pq.push(18);
@@ -17,7 +17,7 @@ int main(){
     cout << pq.size() << " " << pq2.size() << endl;
     
     while(!pq2.empty()){
-        cout << pq2.top() << " ";
+        cout << pq2.top() << " "; 
         pq2.pop();
     }
     

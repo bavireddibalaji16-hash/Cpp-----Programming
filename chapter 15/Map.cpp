@@ -6,7 +6,7 @@ using namespace std;
 int main(){
     map<string,int>m;
 
-    // it prints the key in ascending order of alphabets in order of given keys
+    // it prints the key in ascending order of alphabets and integers too  in order of given keys
 
     m["watch"] = 50;
     m["laptop"] = 225;

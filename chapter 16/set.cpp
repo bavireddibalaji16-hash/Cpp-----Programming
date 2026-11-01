@@ -6,7 +6,7 @@ using namespace std;
 int main() {
     set<int> s = {10, 30, 50, 50, 20};
 
-    // Set will remove duplicate elemnts and arrange them in descending order 
+    // Set will remove duplicate elemnts and arrange them in ascending order  
 
     // 1. Print elements
     for (int x : s)
@@ -46,7 +46,7 @@ int main() {
 
     // 10. Clear
     s.clear();
-    cout << "Size after clear: " << s.size() << endl
+    cout << "Size after clear: " << s.size() << endl;
 
     return 0;
 }
