@@ -24,11 +24,19 @@ int longest(char str[]) {
     }
 
     // check the last word
-    if (count > max) {
+    if (count > max) {      
         max = count;
     }
+    
+    return max;
+}
 
-    cout << max;
+int main() {
+    char str[100];
+    cin.getline(str, 100);
+
+    cout << longest(str);
+
     return 0;
 }
 

@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-// printing inverted pyramid triangle
+// printing inverted downwards  pyramid triangle
 
 int inverted(int n){
 
@@ -17,8 +17,8 @@ int inverted(int n){
 }
 
 int main(){
- int n;
- cin >>n;
-inverted(n);
-return 0;
+    int n;
+    cin >>n;
+    inverted(n);
+  return 0;
 }

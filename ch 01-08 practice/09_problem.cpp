@@ -16,7 +16,6 @@ int division(int money){
     }
 
     for(int i=0;i<5;i++){
-
         cout <<"no of notes of " << arr[i] << " is " <<  notes[i] << endl;
     }
         return 0;

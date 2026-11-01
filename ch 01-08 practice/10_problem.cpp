@@ -1,11 +1,11 @@
 #include<iostream>
 using namespace std;
-// writing a given int in binary form of base 10
+// writing a given int in binary form of base n
 
  int division(int num,int n){
 
     int  place =1 ;
-    int result;
+    int result =0;
 
      while(num>0){
 
@@ -30,8 +30,8 @@ int main(){
     int n;
     cin >> n ;
 
-    if ((num%n)!=0){
-        cout << "number cannot be displayed" << endl;
+    if (n<2 || n>10){
+        cout << "Invalid Base" << endl;
     }
     else{
     division(num,n);

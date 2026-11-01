@@ -16,7 +16,6 @@ int findmax(int arr[][10][10],int a,int b,int c){
      }  
 
 
-
      for(int i=0;i<a;i++){ 
          for(int j=0;j<b;j++){
           int max =0;  // now max =0 after every row check
@@ -31,7 +30,7 @@ int findmax(int arr[][10][10],int a,int b,int c){
         
      }  
      
-     
+    // can do similarly for column too  
 }
 
 int main(){

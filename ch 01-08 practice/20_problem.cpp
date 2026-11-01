@@ -40,7 +40,7 @@ while(true)
         small++;
     else
     {
-        pos = small + 1;
+        pos = small++;
         break;
     }
 }

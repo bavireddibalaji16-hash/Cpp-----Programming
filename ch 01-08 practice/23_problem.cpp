@@ -2,7 +2,7 @@
 #include<iomanip>
 using namespace std;
 
-// printing inverted triangle
+// printing inverted sidewise  triangle
 
 int inverted(int n){
 

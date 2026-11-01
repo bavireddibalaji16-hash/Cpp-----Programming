@@ -3,13 +3,13 @@
 using namespace std;
 
 int main() {
-    char str[] = "I love C++ programming";
+    char str[] = "Isd love C++ programming";
 
     int start = 0;
 
     for (int i = 0;i<strlen(str); i++) {
 
-        if (str[i] == ' ' || str[i] == '\0') {
+        if (str[i] == ' ' ) {
 
             int left = start;
             int right = i - 1;
@@ -18,7 +18,6 @@ int main() {
                 char temp = str[left];
                 str[left] = str[right];
                 str[right] = temp;
-
 
                 left++;
                 right--;

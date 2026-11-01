@@ -2,6 +2,8 @@
 #include<string>
 #include<cstring>
 
+// reversing the string 
+
 using namespace std;
 
 int reverse(char str[]){
@@ -12,10 +14,9 @@ int reverse(char str[]){
         str[i]= temp;
     }
 
-   
     cout << str;
 
-return 0;
+  return 0;
 }
 
 int main(){

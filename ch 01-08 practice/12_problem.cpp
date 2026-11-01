@@ -24,6 +24,6 @@ int main(){
     cin >> arr[i][j];
       }
    }
-   transpose(arr,n);
+   transpose(arr,n); // arr gives address of first element 
    return 0;
 }

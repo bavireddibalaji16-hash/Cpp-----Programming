@@ -6,7 +6,7 @@ using namespace std;
 
 int main(){
 
-    char str[7]="balaji";
+    char str[]="balaji";
     char str1[100];
     int visited[100]={0};
     int k=0;

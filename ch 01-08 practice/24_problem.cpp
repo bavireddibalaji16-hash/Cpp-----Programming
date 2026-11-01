@@ -1,27 +1,28 @@
+
 #include <iostream>
 using namespace std;
 
-// printing pascal's triangle
-
+  // printing pascals triangle
+  
 int main() {
-
     int n;
     cin >> n;
 
-    for(int i = 0; i < n; i++) {
+    int arr[20][20] = {0};
 
-        // spaces
-        for(int j = 0; j < n-i-1; j++) {
-            cout << " ";
-        }
+    for (int i = 0; i < n; i++) {
 
-        // numbers
-        int num = 1;
+        for (int s = 0; s < n-i-1; s++)
+            cout << "  ";
 
-        for(int j = 0; j <= i; j++) {
-            cout << num << " ";
+        for (int j = 0; j <= i; j++) {
 
-            num = num * (i-j)/(j+1);
+            if (j == 0 || j == i)
+                arr[i][j] = 1;
+            else
+                arr[i][j] = arr[i-1][j-1] + arr[i-1][j];
+
+            cout << arr[i][j] << "   ";
         }
 
         cout << endl;

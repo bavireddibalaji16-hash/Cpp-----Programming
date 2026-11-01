@@ -1,5 +1,8 @@
 #include<iostream>
 using namespace std;
+
+// printing floyd triangle 
+
 int floyd(int n){
       int num=1;
       cout << "fylod's triangle " << endl;

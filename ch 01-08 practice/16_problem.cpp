@@ -13,7 +13,7 @@ int display(int arr[][10],int n){
             if(visited[i][j]==1){
                 continue;
             }
-            int count =0;
+      int count =0;
     for(int x=0;x<n;x++){
         for(int y=0;y<n;y++){
            if(arr[i][j]==arr[x][y]){

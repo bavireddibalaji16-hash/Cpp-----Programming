@@ -8,7 +8,6 @@ while(n>0)
 {
     int digit = n%10;
 
-    
     if((n%10)%2==1 && ((n/10)%10)%2==1){
      cout << "no alternate even and odd numbers";
     return 0;
