@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-// this is another method of sorting in ascending order by PICKING ELEMENT FROM UNSORTED PORTION AND INSERT INTO CORRECT POSITION IN SORTED PORTION
+// this is another method of sorting in ascending order by PICKING FIRST ELEMENT FROM UNSORTED PORTION AND INSERT INTO CORRECT POSITION IN SORTED PORTION
 
 void insertionsort(int arr[],int n){
      for(int i=1;i<n;i++){
