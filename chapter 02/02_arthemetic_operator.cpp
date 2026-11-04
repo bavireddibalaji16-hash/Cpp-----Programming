@@ -18,7 +18,7 @@ cout << "the value of a < b is " << (a < b) << endl;
 cout << "the value of a >= b is " << (a >= b) << endl;
 cout << "the value of a <= b is " << (a <= b) << endl;
     // logical operator
-    cout << "the value of ((a>b)&&(a>=b)) is "
+cout << "the value of ((a>b)&&(a>=b)) is "
      << ((a>b)&&(a>=b)) << endl;
 
 cout << "the value of ((a>b)||(a==b)) is "
