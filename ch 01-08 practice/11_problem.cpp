@@ -26,7 +26,6 @@ cout << "num is having alternative even and odd numbers" << endl;
 }
 
 
-
 int main(){
     int num;
     cin >> num ;

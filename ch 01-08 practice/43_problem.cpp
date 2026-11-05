@@ -38,9 +38,7 @@ int main() {
     for (int i = 0; i < N - 1; i++) {
         for (int j = 0; j < N - 1 - i; j++) {
             if (books[j].price > books[j + 1].price) {
-                Book temp = books[j];
-                books[j] = books[j + 1];
-                books[j + 1] = temp;
+               swap(books[j].price,books[j+1].price);
             }
         }
     }

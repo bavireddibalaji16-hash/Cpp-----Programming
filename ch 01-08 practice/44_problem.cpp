@@ -15,7 +15,7 @@ int main() {
     cin >> N;
 
     Item* ptr = new Item[N];  // u qcannit give existed array as  item*ptr = new item i[n] and pointer and data type should have same data type 
-                              // by using item[n] it creates an array of n object items
+                              // by using item[n] it creates an memory for array of n object items
 
     // Input item details
     for (int i = 0; i < N; i++) {

@@ -48,7 +48,7 @@ int arr[7]= {1,2,3,2,4,3,5};
 int brr[100];
 int k=0;
 int visited[100] = {0};
-int n=0;
+
 for(int i=0;i<7;i++){
   for(int j=0;j<7;j++){
   if(visited[arr[i]]>0){
@@ -57,12 +57,11 @@ for(int i=0;i<7;i++){
     if(arr[i]==arr[j] ){
       visited[arr[i]]++;
       brr[k++]=arr[i];
-      n++;
     }
-}
+  }
 }
 
-for(int i=0;i<n;i++){
+for(int i=0;i<k;i++){
     cout << brr[i] <<" ";
 }
 return 0;

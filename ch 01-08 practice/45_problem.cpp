@@ -37,6 +37,7 @@ while(1){
     cout << "[1] Deposit" << endl <<"[2] Withdraw" << endl << "[3] Check Details" << endl << "[4] Exit" << endl;
 
     switch(choice){
+        
         case 1 :
         cout << "Deposit\n";
         cin >> n;

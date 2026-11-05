@@ -14,7 +14,7 @@ int display(int arr[][10],int n){
                 continue;
             }
       int count =0;
-    for(int x=0;x<n;x++){
+      for(int x=0;x<n;x++){
         for(int y=0;y<n;y++){
            if(arr[i][j]==arr[x][y]){
             visited[x][y]=1;
@@ -24,7 +24,7 @@ int display(int arr[][10],int n){
     }
 
       cout << arr[i][j] << " repeated " << count << " times\n";
-}
+ }
      }
      return 0;
     }

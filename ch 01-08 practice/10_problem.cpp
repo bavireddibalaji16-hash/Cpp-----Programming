@@ -15,7 +15,6 @@ using namespace std;
     place = place*10;
     num = num/n;
  }
-
  cout << result;
 
  return 0 ;
