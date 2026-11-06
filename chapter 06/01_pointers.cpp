@@ -1,16 +1,25 @@
 #include <iostream>
 using namespace std;
 
+// functional pointers 
+
+int add(int a, int b) {
+    return a + b;
+}
+
+int subtract(int a, int b) {
+    return a - b;
+}
+
 int main() {
-    int a = 10;
 
-    int *p = &a;
+    int (*operation)(int, int);
 
-    cout << "Value of a = " << a << endl;
-    cout << "Address of a = " << &a << endl;
-    cout << "Value of p = " << p << endl;
-    cout << "Value at p = " << *p << endl;
-    cout << "Value of p = " <<(unsigned long long) p << endl;
+    operation = add;  // operation points towards add function 
+    cout << operation(10, 5) << endl;
+
+    operation = subtract;
+    cout << operation(10, 5) << endl;
 
     return 0;
 }
