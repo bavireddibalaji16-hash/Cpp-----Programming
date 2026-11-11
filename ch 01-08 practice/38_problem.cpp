@@ -2,7 +2,7 @@
 #include<string>
 using namespace std;
 
-// add and multiplication fo complex numbers 
+// add and multiplication of complex numbers 
 
 struct Complex{
     double real;

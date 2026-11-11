@@ -6,7 +6,7 @@ using namespace std;
 struct Date {
     int day, month, year;
 
-    bool isValid() const {
+    bool isValid() {
         if (month < 1 || month > 12 || day < 1)
             return false;
 

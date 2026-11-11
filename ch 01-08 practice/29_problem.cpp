@@ -1,10 +1,9 @@
 #include<iostream>
 #include<string>
 #include<cstring>
+using namespace std;
 
 // reversing the string 
-
-using namespace std;
 
 int reverse(char str[]){
 

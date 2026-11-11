@@ -47,7 +47,7 @@ int main(){
     int start = 0;
     int end = 5;
 
-    binarysearch(arr1,start,end,tar1);
+   binarysearch(arr1,start,end,tar1);
    cout << rebinsear(arr1,start,end,tar1) << endl;  // recursive method 
 
     vector<int>arr2={-3,0,4,7,9,13,15}; // odd elements

@@ -45,17 +45,17 @@ int main(){
     // removind duplicate numbers in an arr
 
 int arr[7]= {1,2,3,2,4,3,5};
-int brr[100];
+int brr[100]={0};
 int k=0;
 int visited[100] = {0};
 
 for(int i=0;i<7;i++){
   for(int j=0;j<7;j++){
-  if(visited[arr[i]]>0){
+  if(visited[arr[j]]>0){
   continue;
   }
     if(arr[i]==arr[j] ){
-      visited[arr[i]]++;
+      visited[arr[j]]++;
       brr[k++]=arr[i];
     }
   }

@@ -11,9 +11,9 @@ int main() {
     cout << "*p = " << *p << endl;
     cout << "**q = " << **q << endl;
 
-    cout << "a = " << &a << endl;
-    cout << "p = " << p << endl;
-    cout << "*q = " <<*q << endl;
+    cout << "a = " << *p << endl;
+    cout << "p = " << *q << endl;
+    cout << "q = " << &p << endl;
 
 
 

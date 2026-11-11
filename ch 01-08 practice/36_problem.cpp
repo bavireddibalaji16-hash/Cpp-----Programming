@@ -28,7 +28,7 @@ int main() {
     int total = 0;
 
     cin >> s.rollNo;
-     cin.ignore();
+    cin.ignore();
     getline(cin, s.name);
 
     for (int i = 0; i < 5; i++) {

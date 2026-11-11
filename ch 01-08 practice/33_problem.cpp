@@ -26,8 +26,6 @@ int main() {
             start = i + 1;
         }
 
-        if (str[i] == '\0')
-            break;
     }
 
     cout << str;
