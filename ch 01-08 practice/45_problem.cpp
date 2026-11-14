@@ -27,6 +27,7 @@ struct bankaccount{
 
 int main(){
     bankaccount ba1;
+    ba1.balance = 0;
 
 while(1){
     int choice;
@@ -56,8 +57,6 @@ while(1){
         break;
 
         case 3:
-        cout << ba1.accountnum << endl;
-        cout << ba1.holdername << endl;
         cout << ba1.balance << endl;
         break;
 
